@@ -1,18 +1,18 @@
 <template>
   <div id="app">
     <Button />
-    <Tweet />
+    <TweetCollection />
   </div>
 </template>
 
 <script>
-import Tweet from './components/Tweet.vue';
+import TweetCollection from './components/TweetCollection.vue';
 import Button from './components/Button.vue';
 
 export default {
   name: 'App',
   components: {
-    Tweet,
+    TweetCollection,
     Button
   }
 }
